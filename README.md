@@ -24,7 +24,9 @@ Status](https://api.shippable.com/projects/<your-project-sha>/badge?branchName=<
 
 ## Installation
 
-* Get the files: `git clone https://github.com/phptek/silverstripe-shippable.git`
+* Get the files:
+  *  `#> git clone https://github.com/phptek/silverstripe-shippable.git` or
+  *  `#> composer require phptek/silverstripe-shippable dev-master`
 * Copy `_ss_environment.php` and `shippable.yml` into your project's root
 * Edit `ss_environment.php` as per comments at the top of the file
 * Edit `shippable.yml` and change `ss_mysite` to the name of your own database
