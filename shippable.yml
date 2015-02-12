@@ -1,0 +1,15 @@
+language: php
+php:
+  - 5.3
+before_script:
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
+  - mysql -e 'create database if not exists ss_mysite;'
+  - composer install
+script:
+  - ./framework/sake dev/tests/module/mysite
+# Invoke CI only on Master branch
+branches:
+  only:
+    - master
+    
