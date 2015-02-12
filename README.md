@@ -17,6 +17,7 @@ Status](https://api.shippable.com/projects/<your-project-sha>/badge?branchName=<
 * Get the files: `git clone https://github.com/phptek/silverstripe-shippable.git`
 * Copy `_ss_environment.php` and `shippable.yml` into your project's root
 * Edit `ss_environment.php` as per comments at the top of the file
+* Edit `shippable.yml` and change `ss_mysite` to the name of your own database
   
 By default `shippable.yml` is configured to only run builds on the your project's `master` branch. You can change this to have shippable build from any project branch. [See the docs](http://docs.shippable.com/en/latest/) for more info.
 
