@@ -1,0 +1,17 @@
+{
+	"name": "phptek/silverstripe-shippable",
+	"description": "Adds support for the Shippable.com CI SaaS.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "shippable", "ci"],
+	"license": "BSD-3-Clause",
+	"authors": [
+	{
+		"name": "Russell Michell",
+		"email": "russ@theruss.com"
+	}],
+	"require": 
+	{
+		"silverstripe/framework": ">=3.0.0",
+		"silverstripe/cms": ">=3.0.0"
+	}
+}
